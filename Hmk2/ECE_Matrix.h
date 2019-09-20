@@ -3,7 +3,8 @@
 //
 #include <iostream>
 #include <vector>
-using namespace std;
+#include <fstream>
+#include <algorithm>
 #ifndef HMK2_ECE_MATRIX_H
 #define HMK2_ECE_MATRIX_H
 
@@ -11,7 +12,7 @@ using namespace std;
 class ECE_Matrix {
     int mRows;
     int nColumns;
-    vector<double> arr;
+    std::vector<double> arr;
 public:
     /* ================= Constructors ================= */
     /**
@@ -23,7 +24,7 @@ public:
      * 1-Value Constructor
      * @param fileName is the name of file to retrieve the ECE_Matrix
      */
-    ECE_Matrix (const char* fileName);
+    ECE_Matrix (const std::string fileName);
     /**
      * 2-Value Constructor
      * @param rows in the ECE_Matrix
@@ -37,15 +38,22 @@ public:
     * @param allValues are the values that initially fill the ECE_Matrix
     */
     ECE_Matrix (int rows, int columns, double allValues);
+    /* =============== Getters/Setters ================= */
+    int getRows() const;
+    int getColumns() const;
+    double getElement(int row, int column) const;
+    void setElement(int row, int column, double value);
+
+
+     /* ============== Operator Overrides ============== */
     /**
      * Override for the << so you can print out using cout
      * @param os
      * @param matrix
      * @return
      */
-     /* ============== Operator Overrides ============== */
-    friend ostream& operator<<(ostream& os, const ECE_Matrix& matrix);
-    ECE_Matrix operator+ (ECE_Matrix const obj) const {return obj;}
+    friend std::ostream& operator<<(std::ostream& os, const ECE_Matrix& matrix);
+    ECE_Matrix operator+ (ECE_Matrix const obj) const;
     ECE_Matrix operator+ (double obj) const {}
     ECE_Matrix operator- (ECE_Matrix const &obj) {}
     ECE_Matrix operator- (double obj) {}
