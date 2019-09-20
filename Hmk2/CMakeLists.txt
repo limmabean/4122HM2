@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Hmk2 Test.cpp ECE_Matrix.cpp ECE_Matrix.h)
+add_executable(Hmk2 largestProduct.cpp)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/matthew/Documents/ECE 4122/Hmk2
+# Install script for directory: /home/matthew/4122HM2/Hmk2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/matthew/4122HM2/Hmk2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

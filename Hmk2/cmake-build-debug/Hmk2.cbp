@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"/>
+				<Option working_dir="/home/matthew/4122HM2/Hmk2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"/>
+				<Option working_dir="/home/matthew/4122HM2/Hmk2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hmk2">
-				<Option output="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/Hmk2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"/>
+				<Option output="/home/matthew/4122HM2/Hmk2/cmake-build-debug/Hmk2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matthew/4122HM2/Hmk2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/matthew/Documents/ECE 4122/Hmk2/."/>
+					<Add directory="/home/matthew/4122HM2/Hmk2/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -45,20 +45,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hmk2"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hmk2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hmk2/fast">
-				<Option output="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/Hmk2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"/>
+				<Option output="/home/matthew/4122HM2/Hmk2/cmake-build-debug/Hmk2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matthew/4122HM2/Hmk2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/matthew/Documents/ECE 4122/Hmk2/."/>
+					<Add directory="/home/matthew/4122HM2/Hmk2/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -69,33 +69,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hmk2/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hmk2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"/>
+				<Option working_dir="/home/matthew/4122HM2/Hmk2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/Documents/ECE\ 4122/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/matthew/4122HM2/Hmk2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.cpp">
+		<Unit filename="/home/matthew/4122HM2/Hmk2/largestProduct.cpp">
 			<Option target="Hmk2"/>
 		</Unit>
-		<Unit filename="/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.h">
-			<Option target="Hmk2"/>
-		</Unit>
-		<Unit filename="/home/matthew/Documents/ECE 4122/Hmk2/Test.cpp">
-			<Option target="Hmk2"/>
-		</Unit>
-		<Unit filename="/home/matthew/Documents/ECE 4122/Hmk2/CMakeLists.txt">
+		<Unit filename="/home/matthew/4122HM2/Hmk2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

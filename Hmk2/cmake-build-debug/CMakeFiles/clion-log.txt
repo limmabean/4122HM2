@@ -1,4 +1,4 @@
-/snap/clion/83/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/matthew/Documents/ECE 4122/Hmk2"
+/snap/clion/83/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/matthew/4122HM2/Hmk2
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug
+-- Build files have been written to: /home/matthew/4122HM2/Hmk2/cmake-build-debug

@@ -43,10 +43,10 @@ RM = /snap/clion/83/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/matthew/Documents/ECE 4122/Hmk2"
+CMAKE_SOURCE_DIR = /home/matthew/4122HM2/Hmk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/matthew/4122HM2/Hmk2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Hmk2.dir/depend.make
@@ -57,45 +57,30 @@ include CMakeFiles/Hmk2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hmk2.dir/flags.make
 
-CMakeFiles/Hmk2.dir/Test.cpp.o: CMakeFiles/Hmk2.dir/flags.make
-CMakeFiles/Hmk2.dir/Test.cpp.o: ../Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hmk2.dir/Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hmk2.dir/Test.cpp.o -c "/home/matthew/Documents/ECE 4122/Hmk2/Test.cpp"
+CMakeFiles/Hmk2.dir/largestProduct.cpp.o: CMakeFiles/Hmk2.dir/flags.make
+CMakeFiles/Hmk2.dir/largestProduct.cpp.o: ../largestProduct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/4122HM2/Hmk2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hmk2.dir/largestProduct.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hmk2.dir/largestProduct.cpp.o -c /home/matthew/4122HM2/Hmk2/largestProduct.cpp
 
-CMakeFiles/Hmk2.dir/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hmk2.dir/Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matthew/Documents/ECE 4122/Hmk2/Test.cpp" > CMakeFiles/Hmk2.dir/Test.cpp.i
+CMakeFiles/Hmk2.dir/largestProduct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hmk2.dir/largestProduct.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matthew/4122HM2/Hmk2/largestProduct.cpp > CMakeFiles/Hmk2.dir/largestProduct.cpp.i
 
-CMakeFiles/Hmk2.dir/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hmk2.dir/Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matthew/Documents/ECE 4122/Hmk2/Test.cpp" -o CMakeFiles/Hmk2.dir/Test.cpp.s
-
-CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o: CMakeFiles/Hmk2.dir/flags.make
-CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o: ../ECE_Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o -c "/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.cpp"
-
-CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.cpp" > CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.i
-
-CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.cpp" -o CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.s
+CMakeFiles/Hmk2.dir/largestProduct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hmk2.dir/largestProduct.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matthew/4122HM2/Hmk2/largestProduct.cpp -o CMakeFiles/Hmk2.dir/largestProduct.cpp.s
 
 # Object files for target Hmk2
 Hmk2_OBJECTS = \
-"CMakeFiles/Hmk2.dir/Test.cpp.o" \
-"CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o"
+"CMakeFiles/Hmk2.dir/largestProduct.cpp.o"
 
 # External object files for target Hmk2
 Hmk2_EXTERNAL_OBJECTS =
 
-Hmk2: CMakeFiles/Hmk2.dir/Test.cpp.o
-Hmk2: CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o
+Hmk2: CMakeFiles/Hmk2.dir/largestProduct.cpp.o
 Hmk2: CMakeFiles/Hmk2.dir/build.make
 Hmk2: CMakeFiles/Hmk2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Hmk2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matthew/4122HM2/Hmk2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Hmk2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hmk2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/Hmk2.dir/clean:
 .PHONY : CMakeFiles/Hmk2.dir/clean
 
 CMakeFiles/Hmk2.dir/depend:
-	cd "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matthew/Documents/ECE 4122/Hmk2" "/home/matthew/Documents/ECE 4122/Hmk2" "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug" "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug" "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles/Hmk2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/matthew/4122HM2/Hmk2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matthew/4122HM2/Hmk2 /home/matthew/4122HM2/Hmk2 /home/matthew/4122HM2/Hmk2/cmake-build-debug /home/matthew/4122HM2/Hmk2/cmake-build-debug /home/matthew/4122HM2/Hmk2/cmake-build-debug/CMakeFiles/Hmk2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Hmk2.dir/depend
 

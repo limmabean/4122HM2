@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/matthew/Documents/ECE 4122/Hmk2/." 
+CXX_INCLUDES = -I/home/matthew/4122HM2/Hmk2/. 
 

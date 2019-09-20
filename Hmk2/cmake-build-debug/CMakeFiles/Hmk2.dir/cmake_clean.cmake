@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hmk2.dir/Test.cpp.o"
-  "CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o"
+  "CMakeFiles/Hmk2.dir/largestProduct.cpp.o"
   "Hmk2.pdb"
   "Hmk2"
 )

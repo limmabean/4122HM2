@@ -48,10 +48,10 @@ RM = /snap/clion/83/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/matthew/Documents/ECE 4122/Hmk2"
+CMAKE_SOURCE_DIR = /home/matthew/4122HM2/Hmk2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/matthew/4122HM2/Hmk2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles" "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matthew/4122HM2/Hmk2/cmake-build-debug/CMakeFiles /home/matthew/4122HM2/Hmk2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matthew/Documents/ECE 4122/Hmk2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matthew/4122HM2/Hmk2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,32 @@ Hmk2/fast:
 	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/build
 .PHONY : Hmk2/fast
 
-ECE_Matrix.o: ECE_Matrix.cpp.o
+largestProduct.o: largestProduct.cpp.o
 
-.PHONY : ECE_Matrix.o
-
-# target to build an object file
-ECE_Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.o
-.PHONY : ECE_Matrix.cpp.o
-
-ECE_Matrix.i: ECE_Matrix.cpp.i
-
-.PHONY : ECE_Matrix.i
-
-# target to preprocess a source file
-ECE_Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.i
-.PHONY : ECE_Matrix.cpp.i
-
-ECE_Matrix.s: ECE_Matrix.cpp.s
-
-.PHONY : ECE_Matrix.s
-
-# target to generate assembly for a file
-ECE_Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/ECE_Matrix.cpp.s
-.PHONY : ECE_Matrix.cpp.s
-
-Test.o: Test.cpp.o
-
-.PHONY : Test.o
+.PHONY : largestProduct.o
 
 # target to build an object file
-Test.cpp.o:
-	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/Test.cpp.o
-.PHONY : Test.cpp.o
+largestProduct.cpp.o:
+	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/largestProduct.cpp.o
+.PHONY : largestProduct.cpp.o
 
-Test.i: Test.cpp.i
+largestProduct.i: largestProduct.cpp.i
 
-.PHONY : Test.i
+.PHONY : largestProduct.i
 
 # target to preprocess a source file
-Test.cpp.i:
-	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/Test.cpp.i
-.PHONY : Test.cpp.i
+largestProduct.cpp.i:
+	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/largestProduct.cpp.i
+.PHONY : largestProduct.cpp.i
 
-Test.s: Test.cpp.s
+largestProduct.s: largestProduct.cpp.s
 
-.PHONY : Test.s
+.PHONY : largestProduct.s
 
 # target to generate assembly for a file
-Test.cpp.s:
-	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/Test.cpp.s
-.PHONY : Test.cpp.s
+largestProduct.cpp.s:
+	$(MAKE) -f CMakeFiles/Hmk2.dir/build.make CMakeFiles/Hmk2.dir/largestProduct.cpp.s
+.PHONY : largestProduct.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Hmk2"
 	@echo "... edit_cache"
-	@echo "... ECE_Matrix.o"
-	@echo "... ECE_Matrix.i"
-	@echo "... ECE_Matrix.s"
-	@echo "... Test.o"
-	@echo "... Test.i"
-	@echo "... Test.s"
+	@echo "... largestProduct.o"
+	@echo "... largestProduct.i"
+	@echo "... largestProduct.s"
 .PHONY : help
 
 
