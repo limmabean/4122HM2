@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.cpp
+ECE_Matrix.h
+/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.h
+
+/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.h
+iostream
+-
+vector
+-
+
+/home/matthew/Documents/ECE 4122/Hmk2/Test.cpp
+ECE_Matrix.h
+/home/matthew/Documents/ECE 4122/Hmk2/ECE_Matrix.h
+
